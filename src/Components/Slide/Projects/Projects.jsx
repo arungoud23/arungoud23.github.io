@@ -51,7 +51,8 @@ const useStyles = makeStyles((theme) => ({
         "HTML",
         "CSS",
         "JavaScript",
-        "Adavancejavascript"
+        "Advancedjs",
+        // "Adavancejavascript"
       ],
       repoLink: "https://github.com/mshakir082/Shoppers_Stop-Clone",
       demoLink: "https://steady-bavarois-32dc0a.netlify.app/",
@@ -105,9 +106,9 @@ const useStyles = makeStyles((theme) => ({
         "HTML",
         "CSS",
         "JavaScript",
-           "React js",
-           "React-Redux",
-           "chakra-ui"
+        "React",
+        "Redux",
+        "Chakra"
       
        
       ],

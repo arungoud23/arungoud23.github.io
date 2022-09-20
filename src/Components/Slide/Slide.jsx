@@ -172,16 +172,16 @@ function Slide({ currentTheme }) {
                 <ParagraphWrapper>
                   <p>Need a copy?</p>
                 </ParagraphWrapper>
-                {/* <Link
+                <Link
                   target="_blank"
                   rel="noreferrer"
-                  to="/files/anuragverma-resume.pdf"
+                  to="/files/Arunagoud_Patil_Resume_19-09-2022-18-47-08.pdf"
                   download
                 >
                   <ResumeButton>
                     <span> Download</span>
                   </ResumeButton>
-                </Link> */}
+                </Link>
               </ResumeAction>
             </Envelope>
           </div>

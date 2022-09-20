@@ -12,6 +12,8 @@ import node from "../../Icons/node.svg";
 import express from "../../Icons/express.svg";
 import mongodb from "../../Icons/mongodb.svg";
 import git from "../../Icons/git.svg";
+import algorithm from "../../Icons/algorithm-1.svg";
+import communication from "../../Icons/conversation-svgrepo-com.svg";
 
 
 const frontEndIcons = [
@@ -24,7 +26,9 @@ const frontEndIcons = [
   { id:7 , icon: express, caption: "Express", invert: true },
   { id:8 , icon: mongodb, caption: "MongoDB" },
   { id:9 , icon: git, caption: "Git" },
- 
+  { id:10, icon: algorithm,caption:"Data structure & Algorithm"},
+  { id:11, icon: "https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg",caption:"Chakra-ui"},
+  { id:12, icon: communication,caption:"Good communication" }
 ];
 
 const SkillWrapper = styled.div`
@@ -96,6 +100,7 @@ function Skillset() {
             <div key={item.id}>
               <Icons invert={item.invert}>
                 <img src={item.icon} alt={item.caption}></img>
+                
                 <figcaption>{item.caption}</figcaption>
               </Icons>
             </div>

@@ -7,11 +7,12 @@ import html from "../../Icons/html.svg";
 import css from "../../Icons/css.svg";
 import javascript from "../../Icons/javascript.svg";
 import react from "../../Icons/react.svg";
-import mongodb from "../../Icons/mongodb.svg";
-import node from "../../Icons/node.svg";
-import express from "../../Icons/express.svg";
-import material from "../../Icons/material.svg";
-import next from "../../Icons/next.svg";
+import redux from "../../Icons/redux.svg";
+// import mongodb from "../../Icons/mongodb.svg";
+// import node from "../../Icons/node.svg";
+// import express from "../../Icons/express.svg";
+// import material from "../../Icons/material.svg";
+// import next from "../../Icons/next.svg";
 
 import {
   MainHeadingWrapper,
@@ -23,12 +24,15 @@ const techStackIcons = {
   HTML: html,
   CSS: css,
   JavaScript: javascript,
+  Advancedjs:javascript,
   React: react,
-  MongoDB: mongodb,
-  Node: node,
-  Express: express,
-  MaterialUI: material,
-  NextJs: next,
+  Redux: redux,
+  Chakra:"https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg",
+  // MongoDB: mongodb,
+  // Node: node,
+  // Express: express,
+  // MaterialUI: material,
+  // NextJs: next,
 };
 
 const entranceAnimation = keyframes`
